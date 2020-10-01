@@ -9,7 +9,6 @@ import { AuthService } from '../auth.service';
   styleUrls: ['./login.component.css']
 })
 export class LoginComponent implements OnInit {
-
   loginForm: FormGroup;
 
   constructor(private authService: AuthService) {}
@@ -29,5 +28,4 @@ export class LoginComponent implements OnInit {
       password: this.loginForm.value.password
     });
   }
-
 }

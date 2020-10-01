@@ -1,15 +1,10 @@
-a:hover,
-a:active{
-  color:lightgray
-}
-
-
-
-.nav-cap{
-  display: inline-block;
-  padding-left: 6px;
-}
-a{
+a {
   text-decoration: none;
   color: white;
 }
+
+a:hover,
+a:active {
+  color: lightgray;
+}
+
