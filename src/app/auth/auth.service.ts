@@ -42,7 +42,7 @@ export class AuthService {
       })
       .catch((err) => {
         this.snackbar.open(err.message,null,{
-          duration:3000
+          duration:5000
         })
       });
   }
