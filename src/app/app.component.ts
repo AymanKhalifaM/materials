@@ -10,6 +10,9 @@ export class AppComponent implements OnInit {
   constructor(private authServ:AuthService){}
 
   ngOnInit(){
-    this.authServ.initAuthListener();
+    if(this.authServ){
+      this.authServ.initAuthListener();
+    }
+    
   }
 }
